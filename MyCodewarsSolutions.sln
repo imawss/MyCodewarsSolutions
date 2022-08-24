@@ -4,15 +4,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8kyu", "8kyu", "{D5D9BAA3-9E9E-4A7E-8590-6D7C9A0EFEAD}"
-	ProjectSection(SolutionItems) = preProject
-		CountByX.cs = CountByX.cs
-		SumOfPositive.cs = SumOfPositive.cs
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7kyu", "7kyu", "{5EA806A8-0C12-4BB8-AE51-DB18BACAEE5E}"
-	ProjectSection(SolutionItems) = preProject
-		CreditCardMask.cs = CreditCardMask.cs
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6kyu", "6kyu", "{D9B36484-58CB-4D65-B9AD-F603D4C1EE72}"
 EndProject
@@ -26,9 +19,29 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2kyu", "2kyu", "{C479332F-E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1kyu", "1kyu", "{86F4F1B2-A98B-4B02-A973-188E67D19645}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CountByX", "CountByX", "{25F12BCA-88B2-446A-B379-003C703388EE}"
+	ProjectSection(SolutionItems) = preProject
+		CountByX.cs = CountByX.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SumOfPositive", "SumOfPositive", "{C14F14A9-148E-4194-A381-3F630C04B6DB}"
+	ProjectSection(SolutionItems) = preProject
+		SumOfPositive.cs = SumOfPositive.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CreditCardMask", "CreditCardMask", "{26089F06-B7A0-4561-9160-299BD7F27D95}"
+	ProjectSection(SolutionItems) = preProject
+		CreditCardMask.cs = CreditCardMask.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{25F12BCA-88B2-446A-B379-003C703388EE} = {D5D9BAA3-9E9E-4A7E-8590-6D7C9A0EFEAD}
+		{C14F14A9-148E-4194-A381-3F630C04B6DB} = {D5D9BAA3-9E9E-4A7E-8590-6D7C9A0EFEAD}
+		{26089F06-B7A0-4561-9160-299BD7F27D95} = {5EA806A8-0C12-4BB8-AE51-DB18BACAEE5E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {075AA0E7-5D78-40A9-99AD-AC0536435E45}
