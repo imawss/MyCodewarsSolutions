@@ -4,8 +4,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8kyu", "8kyu", "{D5D9BAA3-9E9E-4A7E-8590-6D7C9A0EFEAD}"
+	ProjectSection(SolutionItems) = preProject
+		CountByX.cs = CountByX.cs
+		SumOfPositive.cs = SumOfPositive.cs
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7kyu", "7kyu", "{5EA806A8-0C12-4BB8-AE51-DB18BACAEE5E}"
+	ProjectSection(SolutionItems) = preProject
+		CreditCardMask.cs = CreditCardMask.cs
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6kyu", "6kyu", "{D9B36484-58CB-4D65-B9AD-F603D4C1EE72}"
 EndProject
